@@ -9,7 +9,9 @@
         <body>
     <div id="titulo principal"></div>
         <h1 id="titulo_principal">O senhor dos anéis</h1>
-        <h2 class="titulo_secundario">Uma das saga mais famosas do cinema</h2>
+        <h2 class="titulo_secundario">Uma das saga mais famosas do cinema
+            pneumoultramicroscopicossil<wbr>icovulcanoconiótico
+        </h2>
         <nav>
             <a href="index.html"></a>
             <a href="sinopse.html"></a>
@@ -23,7 +25,7 @@
 
     </div>
         <h2 class="titulo_secundario">Universos da Terra média</h2>
-    <form action="" method="">
+     <form action="" method="">
         <label for="nomepessoa">nome:</label>
     <input type="text" name="nomepessoa"
     id="nomepessoa" minlength="3" maxlength="15"
@@ -91,17 +93,52 @@
         for="filme3">filme 1</label>
     </fieldset>
 
-    <select>
-        <option value="filme1">filme 1</option>
-        <option value="filme2">filme 2</option>
-        <option value="filme2">filme 3</option>
-    </select>
+    <select id="lista_surpresa" name="lista">
+             <optgroup label="teste de legenda">
+                 <option value="filme1">filme 1</option>
+                 <option value="filme2">filme 2</option>
+                 <option value="filme2">filme 3</option>
+             </optgroup>
+            <optgroup label="teste de legenda">
+                 <option value="filme1">filme 4</option>
+                <option value="filme2">filme 5</option>
+                 <option value="filme2">filme 6</option>
+            </optgroup>
+     </select>
 
+         <labelf for="nivel" escolha o nivel></labelf>
+         <input type="range" max="18" min="1" id="nivel">
 
+    <fieldset>
+        <legend>desemvolvimento pra internete</legend>
+        <label><input type="checkbox" name="php" value="php">php</label>
+        <label><input type="checkbox" name="html5" value="html5">html5</label>
+        <label><input type="checkbox" name="css" value="css">css</label>
+        <label><input type="checkbox" name="js" value="js">javascript</label>
+    </fieldset>
 
-<button type="submit">enviar</button> 
+    <!--datalist possiveis ganhadores da copa do mundo 26-->
+    <input type="tesxt" id="bussca_datalist">
+    <datalist id="paises">
+        <option>brasil</option>
+        <option>frança</option>
+        <option>argentina</option>
+        <option>alemanha</option>
+        <option>inglatera</option>
+        <option>espanha</option>
+    </datalist>
 
-</form>
+    <audio controls muted autoplay>
+        <source src="audio/musica.mp3" type="audio/mp3">
+    </audio>
 
-    </body>
+ <video controls autoplay>
+    <source src="videos/videoteste.mp4" type="video/mp4">
+ </video>
+
+        <button type="submit">limpar</button>
+        <button type="submit">enviar</button> 
+
+    </form>
+</body>
 </html>
